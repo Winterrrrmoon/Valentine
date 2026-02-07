@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="loveSong">
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="carousel-container" id="bg-grid" style="display: none;">
+        <div class="carousel-row">
+            <div class="track track-top">
+               <img src="1.jpeg"><img src="2.jpeg"><img src="3.jpeg"><img src="4.jpeg">
+               <img src="1.jpeg"><img src="2.jpeg"><img src="3.jpeg"><img src="4.jpeg">
+            </div>
+        </div>
+        <div class="carousel-row">
+            <div class="track track-bottom">
+               <img src="5.jpeg"><img src="6.jpeg"><img src="7.jpeg"><img src="8.jpeg">
+               <img src="5.jpeg"><img src="6.jpeg"><img src="7.jpeg"><img src="8.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div id="reveal-screen" style="display: none;" onclick="openLetter()">
+        <div class="envelope">✉️</div>
+        <div class="click-text">YOU HAVE A NEW MESSAGE! CLICK TO OPEN</div>
+    </div>
+
+    <div id="letter-container" style="display: none;">
+        <div class="vintage-letter">
+            <div class="letter-content">
+                <h2>Hey Valentine ❤️,</h2>
+                <p>
+                   You thought you had an option there huh? Hahaha cute of you… I love to break it to you that <strong>YOU DON'T</strong>… <br><br>
+                   From the moment you said “Am more than happy to go ahead in my life with you” you are booked and have signed up for the next 50 valentines day till we die! <br><br>
+                   But here's the catch… You love being my valentine and annoy me to the core, so yeah you are happy about it and DON'T make that face of yours. <br><br>
+                   After a lot of begging and bribing our pilla I got this made for you to make you feel just as special as you are. I hope my efforts and her ranting paid off and you actually felt exactly how I wanted you to feel. <br><br>
+                   Since you entered my life in that beige colored blazer of yours I have actually started to smile a little more and worry a little less because I know, now you have my back and I can lean on you. <br><br>
+                   I have never been happier in my life and I hope you feel the same way about me as well. I pray and wish to have as many valentines day as possible with you because even after marriage, it is a SPECIAL occasion for me and I will make an effort if not you. <br><br>
+                   This is just a small effort to show you that you matter and I LOVE YOU with the bottom of my heart!! <br><br>
+                   If you smiled while reading this then here's what you need to do: <br>
+                   1. Open Whatsapp <br>
+                   2. Click on my name <br>
+                   3. Ask me out on a date (ROMANTICALLY) <br><br>
+                   Or, just say I love you too and move on. (PS. I know it'll be this) <br>
+                   Haha, just kidding. <br><br>
+                   Happy Valentine's Day in advance because it's not valentine's day yet.
+                </p>
+                <p class="signature">XOXO, <br> Yours Squishy Squishy...</p>
+                <button class="btn" onclick="showFinalPage()">Click for a Surprise ✨</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="initial-question">
+        <img src="https://gifdb.com/images/thumb/cuddling-milk-and-mocha-bear-biting-cheeks-co7u16md688hr9od.gif" alt="cute bear" style="height: 300px;">
+        <p>Will you be my Valentine? ❤️</p>
+        <div class="yesBtn"><button id="yes">Yes :)</button></div>
+        <div class="noBtn"><button id="no">No :(</button></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
